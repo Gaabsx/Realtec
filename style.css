@@ -1,0 +1,110 @@
+:root{
+    --cor1: #091EC8;
+    --cor2: #4226E0;
+    --cor3: #0255DE;
+    --cor4: #0288D4;
+    --cor5: #5A02D4;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to right, var(--cor1),var(--cor4));
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+header > a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+
+}
+
+#telefone{
+    margin-left: 100px;
+}
+
+#endereco{
+    margin-left: 100px;
+}
+
+#facebook{
+    margin-left: 50px;
+}
+
+header #telefone::before{
+    content: '\00A0\1F4DE\00A0\00A0';
+}
+
+header a#horario::before{
+    content: '\00A0\1F55B\00A0\00A0';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    height: 90px;
+    margin: 10px;
+}
+
+nav a{
+    margin-left: 70px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+nav a:hover{
+    color: var(--cor4);
+}
+
+main video{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    height: 500px;
+}
+
+#quebrou{
+    text-align: center;
+    margin-top: 60px;
+    background-color: var(--cor3);
+    padding: 16px;
+    color: white;
+}
+
+#reparos{
+    text-align: center;
+    margin-top: 60px;
+    background-color: var(--cor3);
+    padding: 16px;
+    color: white;    
+}
+
+main aside{
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: justify;
+    color: black;
+    line-height: 1.3em;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+main aside h1{
+    text-align: center;
+    font-size: 2.2em;
+}
+
+main aside img{
+    width: 300px;
+}
